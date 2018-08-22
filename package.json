@@ -1,0 +1,40 @@
+{
+  "name": "is-iterable-with",
+  "version": "1.0.0",
+  "description": "Checks if a value is an iterable that outputs exactly the specified values.",
+  "keywords": [
+    "iterable",
+    "value",
+    "check",
+    "test"
+  ],
+  "author": {
+    "name": "Fr. John Lamansky",
+    "url": "lamansky.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/is-iterable-with",
+  "repository": "lamansky/is-iterable-with",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "is-iterable": "^1.1.1",
+    "sbo": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
